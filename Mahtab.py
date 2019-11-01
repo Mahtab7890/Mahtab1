@@ -114,9 +114,7 @@ def login():
             os.system('rm -rf login.txt')
             time.sleep(1)
             login()
-
-
-def menu():
+   def menu():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -155,7 +153,6 @@ def menu():
     print '\x1b[1;31;40m0. Back              '
     print
     pilih()
-
 def informasi():
     os.system('clear')
     try:
